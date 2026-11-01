@@ -1,8 +1,10 @@
 # 支持 · Support
 
-**映库 Pictorium** · iOS 26 及以上
-**联系 / Contact:** [GitHub Issues](https://github.com/Kn0688/pictorium-site/issues)
-通常在 2 个工作日内回复。反馈 bug 时请附上:机型号、iOS 版本、复现步骤。
+[中文](#中文) · [English](#english)
+
+- **适用产品 / Product:** 映库 Pictorium · iOS 26 及以上
+- **联系 / Contact:** [GitHub Issues](https://github.com/Kn0688/pictorium-site/issues)
+- 反馈 bug 时请附上:机型号、iOS 版本、复现步骤
 
 ---
 

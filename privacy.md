@@ -1,8 +1,10 @@
 # 隐私政策 · Privacy Policy
 
-**生效日期 / Effective:** 2026-11-01
-**适用产品 / Product:** 映库 Pictorium(iOS)
-**联系 / Contact:** [GitHub Issues](https://github.com/Kn0688/pictorium-site/issues)
+[中文](#中文版) · [English](#english)
+
+- **生效日期 / Effective:** 2026-11-01
+- **适用产品 / Product:** 映库 Pictorium(iOS 26+)
+- **联系 / Contact:** [GitHub Issues](https://github.com/Kn0688/pictorium-site/issues)
 
 ---
 
@@ -71,7 +73,7 @@
 
 ### 联系我们
 
-[GitHub Issues](https://github.com/Kn0688/pictorium-site/issues)
+`YOUR_EMAIL@example.com` <!-- TODO: 换成真实邮箱 -->
 
 ---
 
@@ -140,4 +142,4 @@ If our practices change materially, we will update this page and the "Effective"
 
 ### Contact
 
-[GitHub Issues](https://github.com/Kn0688/pictorium-site/issues)
+`YOUR_EMAIL@example.com` <!-- TODO: 换成真实邮箱 -->
