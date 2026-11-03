@@ -30,9 +30,11 @@
 
 ### 网络请求
 
-映库在正常使用中**只有一种出网行为**:
+映库在正常使用中有**两种**出网行为,都与「地点」有关:
 
-**地点名称反编码。** 当你在「地点」中浏览尚未命名的位置簇时,App 会通过 iOS 系统的地理编码服务,把**精度约 500 米的簇锚点**发给 Apple 以换取可读地名。
+**1. 地点名称反编码。** 当你在「地点」中浏览尚未命名的位置簇时,App 会通过 iOS 系统的地理编码服务,把**精度约 500 米的簇锚点**发给 Apple 以换取可读地名。
+
+**2. 地图瓦片。** 「地点」页顶部的地图由 Apple 地图服务渲染,会请求当前可见区域的地图图片。请求只包含地图区域,不包含你的照片、文件或搜索内容。
 
 - 发送的是簇的近似中心点,**不是**照片的精确坐标
 - 不发送照片、文件内容、搜索关键词或任何设备标识
@@ -99,9 +101,11 @@ Pictorium is a photo and file knowledge base that runs **entirely on your device
 
 ### Network requests
 
-In normal use Pictorium makes exactly **one kind** of outbound request:
+In normal use Pictorium makes **two kinds** of outbound request, both related to Places:
 
-**Reverse geocoding of place names.** When you browse unnamed location clusters under Places, the app sends a **~500 m-precision cluster anchor** to Apple's system geocoding service to obtain a readable place name.
+**1. Reverse geocoding of place names.** When you browse unnamed location clusters under Places, the app sends a **~500 m-precision cluster anchor** to Apple's system geocoding service to obtain a readable place name.
+
+**2. Map tiles.** The map shown at the top of the Places screen is rendered by Apple Maps, which requests map imagery for the visible region. The request contains only the map region — never your photos, files, or searches.
 
 - Only the approximate cluster center is sent — never a photo's precise coordinates
 - No photos, file contents, search queries, or device identifiers are sent
